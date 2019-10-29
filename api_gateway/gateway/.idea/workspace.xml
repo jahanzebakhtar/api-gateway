@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f861f7a0-e99a-4785-b5e0-fc38886936ec" name="Default Changelist" comment="added to make zuul proxy a feign client as well">
+      <change beforePath="$PROJECT_DIR$/../authentication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/AuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/AuthenticationApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/controller/JwtAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/controller/JwtAuthenticationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/service/PersonServiceProxy.java" beforeDir="false" />
@@ -96,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572336539818</updated>
-      <workItem from="1572336542454" duration="8105000" />
+      <workItem from="1572336542454" duration="8404000" />
     </task>
     <task id="LOCAL-00001" summary="added to make zuul proxy a feign client as well">
       <created>1572341378076</created>
