@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4118de61-abd4-4b5c-b5cb-9bf258e00580" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/AuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/AuthenticationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/controller/JwtAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/controller/JwtAuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/service/PersonServiceProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/microservice/authentication/AuthenticationApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/microservice/authentication/AuthenticationApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/microservice/authentication/controller/JwtAuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/microservice/authentication/controller/JwtAuthenticationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/microservice/authentication/service/PersonServiceProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/microservice/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/microservice/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/microservice/gateway/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/target/classes/com/microservice/gateway/GatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +64,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572335898162</updated>
-      <workItem from="1572335912285" duration="8219000" />
+      <workItem from="1572335912285" duration="8568000" />
     </task>
+    <task id="LOCAL-00001" summary="//">
+      <created>1572350316502</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572350316502</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="//" />
+    <option name="LAST_COMMIT_MESSAGE" value="//" />
   </component>
 </project>
