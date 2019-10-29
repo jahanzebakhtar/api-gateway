@@ -1,4 +1,4 @@
-package com.microservice.authentication.service;
+package com.microservice.gateway.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
