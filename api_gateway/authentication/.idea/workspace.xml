@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4118de61-abd4-4b5c-b5cb-9bf258e00580" name="Default Changelist" comment="">
+    <list default="true" id="4118de61-abd4-4b5c-b5cb-9bf258e00580" name="Default Changelist" comment="//">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/controller/JwtAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/controller/JwtAuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/service/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/authentication/service/JwtUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/microservice/authentication/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/microservice/authentication/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/microservice/authentication/controller/JwtAuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/microservice/authentication/controller/JwtAuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/microservice/authentication/service/JwtUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/microservice/authentication/service/JwtUserDetailsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/microservice/gateway/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/microservice/gateway/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/microservice/gateway/controller/JwtFeignStorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/microservice/gateway/controller/JwtFeignStorageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/microservice/gateway/service/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/microservice/gateway/service/JwtUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/microservice/gateway/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/target/classes/com/microservice/gateway/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/microservice/gateway/controller/JwtFeignStorageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/target/classes/com/microservice/gateway/controller/JwtFeignStorageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/microservice/gateway/service/JwtUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/target/classes/com/microservice/gateway/service/JwtUserDetailsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../storage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +36,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gateway" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../storage" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -64,7 +74,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572335898162</updated>
-      <workItem from="1572335912285" duration="8568000" />
+      <workItem from="1572335912285" duration="8657000" />
+      <workItem from="1572416951833" duration="589000" />
+      <workItem from="1572420226897" duration="4293000" />
     </task>
     <task id="LOCAL-00001" summary="//">
       <created>1572350316502</created>
@@ -73,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572350316502</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="//">
+      <created>1572350645166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572350645166</updated>
+    </task>
+    <task id="LOCAL-00003" summary="//">
+      <created>1572350663537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572350663537</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,7 +110,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

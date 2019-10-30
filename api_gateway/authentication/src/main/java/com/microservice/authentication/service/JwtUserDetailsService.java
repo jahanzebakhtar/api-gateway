@@ -40,7 +40,7 @@ public class JwtUserDetailsService implements UserDetailsService {
                     Iterable<UserRoles> userRoles = userRoleDao.findAll();
 
                     userRoles.forEach(userRole -> {
-                        authorities.add(new SimpleGrantedAuthority("ROLE_" + userRole.getUserRole()));
+                        authorities.add(new SimpleGrantedAuthority(userRole.getUserRole()));
                     });
                     return new User(username, users.getPassword(),
                             authorities);
