@@ -3,12 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="f861f7a0-e99a-4785-b5e0-fc38886936ec" name="Default Changelist" comment="added to make zuul proxy a feign client as well">
       <change beforePath="$PROJECT_DIR$/../authentication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/AuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/AuthenticationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/controller/JwtAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/controller/JwtAuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/service/PersonServiceProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authentication/target/classes/com/microservice/authentication/AuthenticationApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/target/classes/com/microservice/authentication/AuthenticationApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/service/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/src/main/java/com/microservice/authentication/service/JwtUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/target/classes/com/microservice/authentication/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/target/classes/com/microservice/authentication/config/WebSecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../authentication/target/classes/com/microservice/authentication/controller/JwtAuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/target/classes/com/microservice/authentication/controller/JwtAuthenticationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authentication/target/classes/com/microservice/authentication/service/PersonServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/target/classes/com/microservice/authentication/service/JwtUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../authentication/target/classes/com/microservice/authentication/service/JwtUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/gateway/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/gateway/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/gateway/controller/JwtFeignStorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/gateway/controller/JwtFeignStorageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/gateway/service/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/gateway/service/JwtUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/microservice/gateway/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/microservice/gateway/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/microservice/gateway/controller/JwtFeignStorageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/microservice/gateway/controller/JwtFeignStorageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/microservice/gateway/service/JwtUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/microservice/gateway/service/JwtUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +51,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/microservice/gateway" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -91,7 +98,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572336539818</updated>
-      <workItem from="1572336542454" duration="8516000" />
+      <workItem from="1572336542454" duration="8770000" />
+      <workItem from="1572416977550" duration="1527000" />
+      <workItem from="1572420352185" duration="7865000" />
     </task>
     <task id="LOCAL-00001" summary="added to make zuul proxy a feign client as well">
       <created>1572341378076</created>
@@ -107,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572350384411</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added to make zuul proxy a feign client as well">
+      <created>1572350587406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572350587406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +134,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -5,6 +5,7 @@ import com.microservice.gateway.dao.UserRoleDao;
 import com.microservice.gateway.model.UserRoles;
 import com.microservice.gateway.model.Users;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -13,9 +14,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.util.HashSet;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 
 @Service
 public class JwtUserDetailsService implements UserDetailsService {
@@ -28,8 +27,7 @@ public class JwtUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         Optional<Users> usersList = userDao.findById(username);
-        //List<GrantedAuthority> authorities = new ArrayList<>();
-        Set authorities = new HashSet<>();
+        List<GrantedAuthority> authorities = new ArrayList<>();
         if(usersList.isPresent()) {
             Users users = usersList.get();
             if (users != null) {
@@ -38,7 +36,8 @@ public class JwtUserDetailsService implements UserDetailsService {
                     Iterable<UserRoles> userRoles = userRoleDao.findAll();
 
                     userRoles.forEach(userRole -> {
-                        authorities.add(new SimpleGrantedAuthority("ROLE_" + userRole.getUserRole()));
+                        System.out.println(userRole.getUserRole());
+                        authorities.add(new SimpleGrantedAuthority(userRole.getUserRole()));
                     });
                     return new User(username, users.getPassword(),
                             authorities);

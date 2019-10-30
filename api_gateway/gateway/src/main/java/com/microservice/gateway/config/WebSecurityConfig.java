@@ -55,10 +55,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         exceptionHandling().authenticationEntryPoint(jwtAuthenticationEntryPoint).and().sessionManagement()
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 // Add a filter to validate the tokens with every request
+
         httpSecurity.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
-        httpSecurity.authorizeRequests().antMatchers(HttpMethod.GET).access("hasRole('ROLE_A') or hasRole('ROLE_C')");
-        httpSecurity.authorizeRequests().antMatchers(HttpMethod.POST).access("hasRole('ROLE_B') or hasRole('ROLE_C')");
-        httpSecurity.authorizeRequests().antMatchers(HttpMethod.PUT).access("hasRole('ROLE_C')");
-        httpSecurity.authorizeRequests().antMatchers(HttpMethod.DELETE).access("hasRole('ROLE_C')");
+        httpSecurity.authorizeRequests().antMatchers(HttpMethod.GET,"/person/**").access("hasRole('ROLE_A') or hasRole('ROLE_C')");
+        httpSecurity.authorizeRequests().antMatchers(HttpMethod.POST,"/person/**").access("hasRole('ROLE_B') or hasRole('ROLE_C')");
+        httpSecurity.authorizeRequests().antMatchers(HttpMethod.PUT,"/person/**").access("hasRole('ROLE_C')");
+        httpSecurity.authorizeRequests().antMatchers(HttpMethod.DELETE,"/person/**").access("hasRole('ROLE_C')");
     }
 }
